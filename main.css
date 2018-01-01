@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+/* Add a black background color to the top navigation */
+body {
+	background-color: #ccccff;
+	}
+.topnav {
+    background-color: #9494b8;
+    overflow: hidden;
+	
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+	font-weight: bold; 
+    font-size: 23px;
+	margin: 0 0 0 2.3cm;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #52527a;
+    color: white;
+}
+
+.img {
+	width:100%;	
+	}
+	
+.sidebar {
+    float: right;
+    width: 30%;
+    display: block;
+    padding: 1.4em;
+    border-radius: .5em;
+    overflow: hidden;
+    margin: 1em;
+}
+
+
+.maincont {
+    display: block;
+    width: 70%;
+	margin: 0 4cm 3cm 4cm;
+}
+
+.titlePic {
+	display: block;
+    width: 20%;
+	margin: 0 4cm .5cm 2cm;
+}
+
+.titleSidebar {
+	float: right;
+    width: 50%;
+    display: block;
+    padding-right: 2em;
+    border-radius: .5em;
+    overflow: hidden;
+    margin: 1em;
+	}
+	
+.timesSidebar {
+	float: right;
+    width: 50%;
+    display: block;
+    overflow: hidden;
+    margin: 1em;
+	padding-right: 2.9em;
+	}
+
+.small{
+	font-size: large;
+	margin: 0 0 0 2.5cm;
+	font-weight: bold; 
+	}
+
+.resize {
+	font-weight: bold;
+	font-size:large;		
+	}
+
+.indent {
+	padding-left: 2em; 
+	}
+
